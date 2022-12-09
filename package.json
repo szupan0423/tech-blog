@@ -1,11 +1,12 @@
 {
   "name": "user-list",
   "version": "1.0.0",
-  "description": "",
+  "description": "```md\r AS A developer who writes about tech\r I WANT a CMS-style blog site\r SO THAT I can publish articles, blog posts, and my thoughts and opinions\r ```",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
+    "dev": "npx nodemon server",
     "seed": "node seeds/seed.js"
   },
   "keywords": [],
@@ -15,10 +16,18 @@
     "bcrypt": "^5.0.0",
     "connect-session-sequelize": "^7.0.4",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "express-handlebars": "^5.2.0",
+    "express": "^4.18.2",
+    "express-handlebars": "^5.3.5",
     "express-session": "^1.17.1",
     "mysql2": "^2.2.5",
-    "sequelize": "^6.3.5"
-  }
+    "sequelize": "^6.26.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szupan0423/tech-blog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/szupan0423/tech-blog/issues"
+  },
+  "homepage": "https://github.com/szupan0423/tech-blog#readme"
 }
